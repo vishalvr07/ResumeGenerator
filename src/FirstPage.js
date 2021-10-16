@@ -27,7 +27,7 @@ function FirstPage() {
             ph:ph,
             profile:profile,
             skills:skills,
-            loggedIn:true,
+            
 
         }));
     };
