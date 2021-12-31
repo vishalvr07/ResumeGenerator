@@ -17,10 +17,6 @@ function education() {
                 </span>
             </p>
         </div>
-
-
-
-
     )
 }
 

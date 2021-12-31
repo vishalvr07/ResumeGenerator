@@ -3,10 +3,9 @@ import {  useSelector } from 'react-redux';
 import {  selectUser } from './userSlice';
 import "./main.css"
 
-
+//comment for git change
 
 function Header() {
-    
     const user = useSelector(selectUser);
     return (
         <div className="header">
@@ -15,10 +14,6 @@ function Header() {
             {user.des} <br />
             {user.loc}&nbsp; (IN)
         </div>
-
-
-
-
     )
 }
 
